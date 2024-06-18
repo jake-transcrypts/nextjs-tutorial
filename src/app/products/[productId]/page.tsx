@@ -12,7 +12,7 @@ export const generateMetadata = async ({ params }: Props): Promise<Metadata> => 
   const description = await new Promise<string>((resolve) => {
     setTimeout(() => {
       resolve(`Description for product ${params.productId}`);
-    }, 3000);
+    }, 100);
   });
 
   return {
