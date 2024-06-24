@@ -12,8 +12,6 @@ export default function About() {
       <Link href="/login">Login</Link>
       <br />
       <Link href="/complex-dashboard">complex dashboard</Link>
-      <br />
-      <Link href="/profile">profile</Link>
     </div>
   );
 }

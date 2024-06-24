@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function ComplexDashboardLayout({
   children,
 
@@ -21,6 +23,7 @@ export default function ComplexDashboardLayout({
         </div>
       </div>
       <div style={{ display: 'flex', flex: 1 }}>{notifications}</div>
+      <Link href="/">Home</Link>
     </div>
   );
 }
