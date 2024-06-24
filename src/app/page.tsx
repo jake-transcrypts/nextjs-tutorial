@@ -8,6 +8,12 @@ export default function About() {
       <Link href="/blog">Blog</Link>
       <br />
       <Link href="/products">Products</Link>
+      <br />
+      <Link href="/login">Login</Link>
+      <br />
+      <Link href="/complex-dashboard">complex dashboard</Link>
+      <br />
+      <Link href="/profile">profile</Link>
     </div>
   );
 }
