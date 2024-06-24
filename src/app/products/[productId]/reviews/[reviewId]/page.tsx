@@ -12,15 +12,15 @@ export default function ProductReviewDetails({ params }: { params: { productId: 
     notFound();
   }
 
-  const randomNumber = getRandomInt(0, 5);
+  // const randomNumber = getRandomInt(0, 5);
 
-  if (randomNumber % 2 === 0) {
-    throw new Error('Error: Something went wrong');
-  }
+  // if (randomNumber % 2 === 0) {
+  //   throw new Error('Error:  Something went wrong');
+  // }
 
   return (
     <div>
-      Random Number: {randomNumber} <br />
+      {/* Random Number: {randomNumber} <br /> */}
       Review Details for {params.productId} / {params.reviewId}
     </div>
   );
