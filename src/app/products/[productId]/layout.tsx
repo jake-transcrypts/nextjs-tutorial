@@ -5,9 +5,9 @@ function getRandomInt(min: number, max: number) {
 export default function ProductDetailLayout({ children }: { children: React.ReactNode }) {
   const randomNumber = getRandomInt(0, 5);
 
-  if (randomNumber % 2 === 0) {
-    throw new Error('Error loading product');
-  }
+  // if (randomNumber % 2 === 0) {
+  //   throw new Error('Error loading product');
+  // }
 
   return (
     <div>
